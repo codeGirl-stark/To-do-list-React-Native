@@ -70,10 +70,6 @@ const login = ({navigation}) => {
           <TouchableOpacity style={styles.button} onPress={getData}>
             <Text style={styles.buttonText}>Se connecter</Text>
           </TouchableOpacity>
-
-          <TouchableOpacity style={styles.button} onPress={() =>navigation.navigate("Tâches")}>
-            <Text style={styles.buttonText}>Liste des tâches</Text>
-          </TouchableOpacity>
         </View>
 
     </SafeAreaView>
